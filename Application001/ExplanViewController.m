@@ -22,6 +22,7 @@
     self.myExplanLabel.text = _usefulData1[self.select_num];
      self.myExplanLabel.text = [NSString stringWithFormat:@"%@とは",_usefulData1[self.select_num]];
    //次ぎやるとこ
+    //とはをsection2もまとめてやる
 
 }
 
