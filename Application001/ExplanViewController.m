@@ -21,7 +21,7 @@
     _usefulDate2 = @[@"what are you up to?",@"what's on for today?",@"how much is it?",@"when will class last?",];
     self.myExplanLabel.text = _usefulData1[self.select_num];
      self.myExplanLabel.text = [NSString stringWithFormat:@"%@とは",_usefulData1[self.select_num]];
-   
+   //次ぎやるとこ
 
 }
 
