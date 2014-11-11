@@ -19,10 +19,19 @@
     // Do any additional setup after loading the view.
     _usefulData1 = @[@"good morning.",@"How is it going?",@"What is the mateter?",@"How have you been?",];
     _usefulDate2 = @[@"what are you up to?",@"what's on for today?",@"how much is it?",@"when will class last?",];
-    self.myExplanLabel.text = _usefulData1[self.select_num];
-     self.myExplanLabel.text = [NSString stringWithFormat:@"%@とは",_usefulData1[self.select_num]];
-   //次ぎやるとこ
-    //とはをsection2もまとめてやる
+//    self.myExplanLabel.text = _usefulData1[self.select_num];
+//     self.myExplanLabel.text = [NSString stringWithFormat:@"%@とは",_usefulData1[self.select_num]];
+    if (self.section_num == 0) {
+        self.myExplanLabel.text = _usefulData1[self.select_num];
+    }else{
+        self.myExplanLabel.text = _usefulDate2[self.select_num];
+    }
+    if (self.section_num == 0) {
+        self.myExplanLabel.text = [NSString stringWithFormat:@"%@とは",_usefulData1[self.select_num]];
+    }else{
+    self.myExplanLabel.text = [NSString stringWithFormat:@"%@とは",_usefulDate2[self.select_num]];
+    }
+   
 
 }
 

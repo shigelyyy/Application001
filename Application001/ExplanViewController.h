@@ -16,4 +16,5 @@
 }
 @property (weak, nonatomic) IBOutlet UILabel *myExplanLabel;
 @property (nonatomic,assign) int select_num;
+@property (nonatomic,assign) int section_num;
 @end

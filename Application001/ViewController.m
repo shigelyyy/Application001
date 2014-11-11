@@ -59,6 +59,8 @@ static NSString *CellIdentifier = @"Cell";
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ExplanViewController *evc =[self.storyboard instantiateViewControllerWithIdentifier:@"ExplanViewController"];
     evc.select_num = indexPath.row;
+    evc.section_num = indexPath.section;
+    
     
     [[self navigationController] pushViewController:evc animated:YES];
     
