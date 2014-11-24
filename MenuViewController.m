@@ -8,6 +8,8 @@
 
 #import "MenuViewController.h"
 #import "ViewController.h"
+#import "FavoriteViewController.h"
+
 @interface MenuViewController ()
 
 @end
@@ -43,5 +45,13 @@
 
 
 
+}
+
+- (IBAction)myFTB:(id)sender {
+    //遷移先画面のカプセル化（インスタンスカ）storybord上でDetailViewControlleの
+    FavoriteViewController *fvc =[self.storyboard instantiateViewControllerWithIdentifier:@"FavoriteViewController"];
+    
+    //ナビゲーションコントローラーの機能で画面遷移（別の画面に移動する事）
+    [[self navigationController] pushViewController:fvc animated:YES];
 }
 @end

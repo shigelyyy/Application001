@@ -13,5 +13,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *myFunnyButton;
 @property (weak, nonatomic) IBOutlet UIButton *myFavoriteButton;
 - (IBAction)UsefulAction:(id)sender;
+- (IBAction)myFTB:(id)sender;
 
 @end

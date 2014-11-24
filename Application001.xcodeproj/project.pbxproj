@@ -16,6 +16,7 @@
 		CE3419B01A0CA1B700E7CDB9 /* Application001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419AF1A0CA1B700E7CDB9 /* Application001Tests.m */; };
 		CE3419BB1A0CB5A100E7CDB9 /* ExplanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419BA1A0CB5A100E7CDB9 /* ExplanViewController.m */; };
 		CE3419BE1A0FAB1500E7CDB9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419BD1A0FAB1500E7CDB9 /* MenuViewController.m */; };
+		CE93B7221A1333FF0040A82A /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93B7211A1333FF0040A82A /* FavoriteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		CE3419BA1A0CB5A100E7CDB9 /* ExplanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplanViewController.m; sourceTree = "<group>"; };
 		CE3419BC1A0FAB1500E7CDB9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
 		CE3419BD1A0FAB1500E7CDB9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
+		CE93B7201A1333FF0040A82A /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		CE93B7211A1333FF0040A82A /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				CE3419BA1A0CB5A100E7CDB9 /* ExplanViewController.m */,
 				CE34199A1A0CA1B700E7CDB9 /* ViewController.h */,
 				CE34199B1A0CA1B700E7CDB9 /* ViewController.m */,
+				CE93B7201A1333FF0040A82A /* FavoriteViewController.h */,
+				CE93B7211A1333FF0040A82A /* FavoriteViewController.m */,
 				CE3419BC1A0FAB1500E7CDB9 /* MenuViewController.h */,
 				CE3419BD1A0FAB1500E7CDB9 /* MenuViewController.m */,
 				CE34199D1A0CA1B700E7CDB9 /* Main.storyboard */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE93B7221A1333FF0040A82A /* FavoriteViewController.m in Sources */,
 				CE3419BB1A0CB5A100E7CDB9 /* ExplanViewController.m in Sources */,
 				CE34199C1A0CA1B700E7CDB9 /* ViewController.m in Sources */,
 				CE3419991A0CA1B700E7CDB9 /* AppDelegate.m in Sources */,
@@ -426,6 +432,7 @@
 				CE3419B51A0CA1B700E7CDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3419B61A0CA1B700E7CDB9 /* Build configuration list for PBXNativeTarget "Application001Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				CE3419B81A0CA1B700E7CDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

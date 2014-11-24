@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ExplanViewController : UIViewController{
-    NSArray *_usefulData1;
-    NSArray *_usefulDate2;
+    NSMutableArray *_usefulData1;
+    NSMutableArray *_usefulDate2;
 
 
 }
 @property (weak, nonatomic) IBOutlet UILabel *myExplanLabel;
 @property (nonatomic,assign) int select_num;
 @property (nonatomic,assign) int section_num;
+@property (weak, nonatomic) IBOutlet UITextView *descriptionText;
+@property (weak, nonatomic) IBOutlet UIButton *favoriteBtn;
+- (IBAction)addFavoriteList:(id)sender;
 @end

@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-_usefulData1 = @[@"good morning.",@"How is it going?",@"What is the mateter?",@"How have you been?",];
+    self.title = @"Useful";
+    
+    _usefulData1 = @[@"good morning.",@"How is it going?",@"What is the mateter?",@"How have you been?",];
     _usefulDate2 = @[@"what are you up to?",@"what's on for today?",@"how much is it?",@"when will class last?",];
     _usefulTableView.delegate = self;
     self.usefulTableView.dataSource = self;
@@ -42,6 +44,7 @@ _usefulData1 = @[@"good morning.",@"How is it going?",@"What is the mateter?",@"
     return @"5W1H";
     }
 }
+//行に表示するデータの作成
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -56,12 +59,13 @@ static NSString *CellIdentifier = @"Cell";
     }
     return cell;
 }
+//何か行が押されたときdetailviewcontllerに画面遷移する
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ExplanViewController *evc =[self.storyboard instantiateViewControllerWithIdentifier:@"ExplanViewController"];
     evc.select_num = indexPath.row;
     evc.section_num = indexPath.section;
     
-    
+    //ナビゲーションコントローラーの機能で画面遷移
     [[self navigationController] pushViewController:evc animated:YES];
     
     
