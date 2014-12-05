@@ -7,13 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ExplanViewController : UIViewController{
+@interface ExplanViewController : UIViewController<AVAudioPlayerDelegate>
+{
     NSMutableArray *_usefulData1;
     NSMutableArray *_usefulDate2;
 
 
 }
+@property(nonatomic) AVAudioPlayer *audioPlayer;
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+- (IBAction)playAudio:(id)sender;
+
+
 @property (weak, nonatomic) IBOutlet UILabel *myExplanLabel;
 @property (nonatomic,assign) int select_num;
 @property (nonatomic,assign) int section_num;

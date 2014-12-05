@@ -22,24 +22,31 @@
         self.title = @"FavoriteList";
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSArray *useful1;
-    NSArray *useful2;
+    //NSArray *useful2;
     //保存されたデータを取り出す
     useful1 = [defaults objectForKey:@"usefulTable1"];
-    useful2 = [defaults objectForKey:@"usefulTable2"];
+    //useful2 = [defaults objectForKey:@"usefulTable2"];
     if (useful1 == nil) {
-        useful1 = @[@{@"name":@"good morning.",@"desc":@"ohayo",@"favoriteflag":@"0"},
-                    @{@"name":@"How is it going?",@"desc":@"gennki?",@"favoriteflag":@"0"},
-                    @{@"name":@"What is the mateter?",@"desc":@"dousita?",@"favoriteflag":@"0"},
-                    @{@"name":@"How have you been?",@"desc":@"gennkidatta?",@"favoriteflag":@"0"},];
+        useful1 = @[@{@"name":@"good morning.",@"desc":@"the pronunciation of a Jpanese\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n gennki?",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"What is the mateter?",@"desc":@"the pronunciation of a Jpanese\n dousita?",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"How have you been?",@"desc":@"the pronunciation of a Jpanese\n gennkidatta?",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",@"favoriteflag":@"0",@"sounddate":@""},
+                      
+                    @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
     }
-    if (useful2 == nil) {
-        useful2 = @[@{@"name":@"what are you up to?",@"desc":@"nanisiteruno?",@"favoriteflag":@"0"},
-                    @{@"name":@"what's on for today?",@"desc":@"kyounoyoteiha?",@"favoriteflag":@"0"},
-                    @{@"name":@"how much is it?",@"desc":@"koreikura?",@"favoriteflag":@"0"},
-                    @{@"name":@"when will class last?",@"desc":@"kyouzyugyouituowaru?",@"favoriteflag":@"0"},];
-        
-    }
-    
+
+//    if (useful2 == nil) {
+//        useful2 = @[@{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",
+//                      @"favoriteflag":@"0",@"sounddate":@""},
+//                    @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
+//                    @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
+//                    @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
+//        
+//    }
+//    
     //検索用編集可能配列
     NSMutableArray *tmpusefulArray = useful1.mutableCopy;
     //お気に入りリスト
@@ -53,37 +60,38 @@
         }
     
     }
-    NSMutableArray *tmpusefulArray2 = useful2.mutableCopy;
-    //お気に入りリスト
-    _usefulDate2 = useful2.mutableCopy;
-    for (NSDictionary *useful_each2 in tmpusefulArray2) {
-        id favoriteflag = useful_each2[@"favoriteflag"];
-        //取り出したid型をint型に変換
-        int intFavFlag = [favoriteflag intValue];
-        if (intFavFlag == 0) {
-            [_usefulDate2 removeObject:useful_each2];
-        }
-    }
+//    NSMutableArray *tmpusefulArray2 = useful2.mutableCopy;
+//    //お気に入りリスト
+//    _usefulDate2 = useful2.mutableCopy;
+//    for (NSDictionary *useful_each2 in tmpusefulArray2) {
+//        id favoriteflag = useful_each2[@"favoriteflag"];
+//        //取り出したid型をint型に変換
+//        int intFavFlag = [favoriteflag intValue];
+//        if (intFavFlag == 0) {
+//            [_usefulDate2 removeObject:useful_each2];
+//        }
+//    }
     _myFavoriteTableview.delegate = self;
     _myFavoriteTableview.dataSource = self;
     
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return 1;
 }
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    if (section == 0) {
+   // if (section == 0) {
         return @"Greeting";
-    }else{
-    return @"5W1H";
-    }
+    //}
+//    else{
+//    return @"5W1H";
+//    }
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    if (section == 0) {
+    //if (section == 0) {
         return _usefulData1.count;
-    }else{
-        return _usefulDate2.count;
-    }
+//    }else{
+//        return _usefulDate2.count;
+//    }
     
 
 }
@@ -99,9 +107,10 @@
     }
     if (indexPath.section == 0) {
         cell.textLabel.text = _usefulData1[indexPath.row][@"name"];
-    }else{
-        cell.textLabel.text = _usefulDate2[indexPath.row][@"name"];
     }
+//    else{
+//        cell.textLabel.text = _usefulDate2[indexPath.row][@"name"];
+//    }
     return cell;
 
 
@@ -121,11 +130,17 @@
     //保存されたデータを取り出す
     if (indexPath.section == 0) {
         useful1 = [defaults objectForKey:@"usefulTable1"];
+    
         if (useful1 == nil) {
-            useful1 = @[@{@"name":@"good morning.",@"desc":@"ohayo",@"favoriteflag":@"0"},
-                        @{@"name":@"How is it going?",@"desc":@"gennki?",@"favoriteflag":@"0"},
-                        @{@"name":@"What is the mateter?",@"desc":@"dousita?",@"favoriteflag":@"0"},
-                        @{@"name":@"How have you been?",@"desc":@"gennkidatta?",@"favoriteflag":@"0"},];
+            useful1 = @[@{@"name":@"good morning.",@"desc":@"the pronunciation of a Jpanese\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
+                        @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n gennki?",@"favoriteflag":@"0",@"sounddate":@""},
+                        @{@"name":@"What is the mateter?",@"desc":@"the pronunciation of a Jpanese\n dousita?",@"favoriteflag":@"0",@"sounddate":@""},
+                        @{@"name":@"How have you been?",@"desc":@"the pronunciation of a Jpanese\n gennkidatta?",@"favoriteflag":@"0",@"sounddate":@""},
+                        @{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",@"favoriteflag":@"0",@"sounddate":@""},
+                          
+                        @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
+                        @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
+                        @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
         }
         for (NSDictionary *useful_each in useful1) {
             NSString *name = useful_each[@"name"];
@@ -136,27 +151,28 @@
             index++;
         }
     
-    
-    }else{
-        useful1 = [defaults objectForKey:@"usefulTable2"];
-        if (useful1 == nil) {
-            useful1 = @[@{@"name":@"what are you up to?",@"desc":@"nanisiteruno?",@"favoriteflag":@"0"},
-                          @{@"name":@"what's on for today?",@"desc":@"kyounoyoteiha?",@"favoriteflag":@"0"},
-                          @{@"name":@"how much is it?",@"desc":@"koreikura?",@"favoriteflag":@"0"},
-                          @{@"name":@"when will class last?",@"desc":@"kyouzyugyouituowaru?",@"favoriteflag":@"0"},];
-            
-
-        }
-        for (NSDictionary *useful_each in useful1) {
-            NSString *name = useful_each[@"name"];
-            //名前が同じ者が存在した場合、検索処理を中止する
-            if ([name isEqualToString:_usefulDate2[indexPath.row][@"name"]]) {
-                break;
-            }
-            index++;
-        }
-    
     }
+    
+//    else{
+//        useful1 = [defaults objectForKey:@"usefulTable2"];
+//        if (useful1 == nil) {
+//            useful1 =  @[@{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",
+//                           @"favoriteflag":@"0",@"sounddate":@""},
+//                         @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
+//                         @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
+//                         @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
+//            
+//        }
+//        for (NSDictionary *useful_each in useful1) {
+//            NSString *name = useful_each[@"name"];
+//            //名前が同じ者が存在した場合、検索処理を中止する
+//            if ([name isEqualToString:_usefulDate2[indexPath.row][@"name"]]) {
+//                break;
+//            }
+//            index++;
+//        }
+//}
+    
     //セクションの遷移先に画面移す
     evc.section_num = indexPath.section;
     //検索処理結果の番号を遷移先の画面に渡す
