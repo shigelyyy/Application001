@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"Useful";
     
-    _usefulData1 = @[@"good morning.",@"How is it going?",@"What is the mateter?",@"How have you been?",@"what are you up to?",@"what's on for today?",@"how much is it?",@"when will class last?",];
+    _usefulData1 = @[@"good morning.",@"who is that?",@"what's the best thing to do?",@"Where are you going?",@"Where are you now?",@"Where are you from?",@"why?",@"What’s your plan　for today",@"What time are you going back home today?",@"What are you doing?",@"How is it going?",];
 //    _usefulDate2 = @[@"what are you up to?",@"what's on for today?",@"how much is it?",@"when will class last?",];
     _usefulTableView.delegate = self;
     self.usefulTableView.dataSource = self;

@@ -28,14 +28,27 @@
     //useful2 = [defaults objectForKey:@"usefulTable2"];
     if (useful1 == nil) {
         useful1 = @[@{@"name":@"good morning.",@"desc":@"the pronunciation of a Jpanese\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
-                    @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n gennki?",@"favoriteflag":@"0",@"sounddate":@""},
-                    @{@"name":@"What is the mateter?",@"desc":@"the pronunciation of a Jpanese\n dousita?",@"favoriteflag":@"0",@"sounddate":@""},
-                    @{@"name":@"How have you been?",@"desc":@"the pronunciation of a Jpanese\n gennkidatta?",@"favoriteflag":@"0",@"sounddate":@""},
-                    @{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",@"favoriteflag":@"0",@"sounddate":@""},
-                      
-                    @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
-                    @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
-                    @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
+                    
+                    @{@"name":@"who is that?",@"desc":@"the pronunciation of a Jpanese\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
+                    
+                    @{@"name":@"what's the best thing to do?",@"desc":@"the pronunciation of a Jpanese\n dousitara-ii-no?",@"favoriteflag":@"0",@"sounddate":@"どうしたらいいの"},
+                    
+                    @{@"name":@"Where are you going?",@"desc":@"the pronunciation of a Jpanese\n doko-iku-no?",@"favoriteflag":@"0",@"sounddate":@"どこいくの？"},
+                    
+                    @{@"name":@"Where are you now?",@"desc":@"the pronunciation of a Jpanese\n　doko-iru-no? ",@"favoriteflag":@"0",@"sounddate":@"どこいんの？"},
+                    
+                    @{@"name":@" Where are you from? ",@"desc":@"the pronunciation of a Jpanese\n doko-syussinn-desu-ka",@"favoriteflag":@"0",@"sounddate":@"どこ出身ですか？"},
+                    
+                    @{@"name":@"why?",@"desc":@"the pronunciation of a Jpanese\n nann-de ",@"favoriteflag":@"0",@"sounddate":@"なんで？"},
+                    
+                    @{@"name":@"What’s your plan　for today？",@"desc":@"the pronunciation of a Jpanese\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
+                    
+                    @{@"name":@"What time are you going back home today?",@"desc":@"the pronunciation of a Jpanese\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
+                    
+                    @{@"name":@"What are you doing?",@"desc":@"the pronunciation of a Jpanese\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
+                    
+                    
+                    @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"},];
     }
 
 //    if (useful2 == nil) {
@@ -133,14 +146,27 @@
     
         if (useful1 == nil) {
             useful1 = @[@{@"name":@"good morning.",@"desc":@"the pronunciation of a Jpanese\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
-                        @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n gennki?",@"favoriteflag":@"0",@"sounddate":@""},
-                        @{@"name":@"What is the mateter?",@"desc":@"the pronunciation of a Jpanese\n dousita?",@"favoriteflag":@"0",@"sounddate":@""},
-                        @{@"name":@"How have you been?",@"desc":@"the pronunciation of a Jpanese\n gennkidatta?",@"favoriteflag":@"0",@"sounddate":@""},
-                        @{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",@"favoriteflag":@"0",@"sounddate":@""},
-                          
-                        @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
-                        @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
-                        @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
+                        
+                        @{@"name":@"who is that?",@"desc":@"the pronunciation of a Jpanese\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
+                        
+                        @{@"name":@"what's the best thing to do?",@"desc":@"the pronunciation of a Jpanese\n dousitara-ii-no?",@"favoriteflag":@"0",@"sounddate":@"どうしたらいいの"},
+                        
+                        @{@"name":@"Where are you going?",@"desc":@"the pronunciation of a Jpanese\n doko-iku-no?",@"favoriteflag":@"0",@"sounddate":@"どこいくの？"},
+                        
+                        @{@"name":@"Where are you now?",@"desc":@"the pronunciation of a Jpanese\n　doko-iru-no? ",@"favoriteflag":@"0",@"sounddate":@"どこいんの？"},
+                        
+                        @{@"name":@" Where are you from? ",@"desc":@"the pronunciation of a Jpanese\n doko-syussinn-desu-ka",@"favoriteflag":@"0",@"sounddate":@"どこ出身ですか？"},
+                        
+                        @{@"name":@"why?",@"desc":@"the pronunciation of a Jpanese\n nann-de ",@"favoriteflag":@"0",@"sounddate":@"なんで？"},
+                        
+                        @{@"name":@"What’s your plan　for today？",@"desc":@"the pronunciation of a Jpanese\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
+                        
+                        @{@"name":@"What time are you going back home today?",@"desc":@"the pronunciation of a Jpanese\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
+                        
+                        @{@"name":@"What are you doing?",@"desc":@"the pronunciation of a Jpanese\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
+                        
+                        
+                        @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"},];
         }
         for (NSDictionary *useful_each in useful1) {
             NSString *name = useful_each[@"name"];
