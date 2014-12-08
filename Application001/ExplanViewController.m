@@ -24,11 +24,10 @@
     
     NSArray *useful1;
 //    NSArray *useful2;
-    //保存されたデータを取り出す
     useful1 = [defaults objectForKey:@"usefulTable1"];
 //    useful2 = [defaults objectForKey:@"usefulTable2"];
     //nilは何もないという状態
-        if (useful1 == nil) {
+//        if (useful1 == nil) {
             useful1 = @[@{@"name":@"good morning.",@"desc":@"the pronunciation of a Jpanese\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
                     
                     @{@"name":@"who is that?",@"desc":@"the pronunciation of a Jpanese\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
@@ -52,16 +51,9 @@
             
                     @{@"name":@"How is it going?",@"desc":@"the pronunciation of a Jpanese\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"
                       },];
-        }
+//        }
     
-                   //    if (useful2 == nil) {
-//useful2 = @[@{@"name":@"what are you up to?",@"desc":@"the pronunciation of a Jpanese\n nanisiteruno?",
-//            @"favoriteflag":@"0",@"sounddate":@""},
-//                        @{@"name":@"what's on for today?",@"desc":@"the pronunciation of a Jpanese\n kyounoyoteiha?",@"favoriteflag":@"0",@"sounddate":@""},
-//                        @{@"name":@"how much is it?",@"desc":@"the pronunciation of a Jpanese\n koreikura?",@"favoriteflag":@"0",@"sounddate":@""},
-//                        @{@"name":@"when will class last?",@"desc":@"the pronunciation of a Jpanese\n kyouzyugyouituowaru?",@"favoriteflag":@"0",@"sounddate":@""},];
-//
-//    }
+
     _usefulData1 = useful1.mutableCopy;
 //    _usefulDate2 = useful2.mutableCopy;
     //ここにサウンドをたす
@@ -75,7 +67,7 @@
         //favoriteflagを取り出す
         favoriteflag = _usefulData1[self.select_num][@"favoriteflag"];
         //audioプレイヤーの作成
-        path = [[NSBundle mainBundle] pathForResource:_usefulData1[self.select_num][@"sounddate"] ofType:@""];
+        path = [[NSBundle mainBundle] pathForResource:_usefulData1[self.select_num][@"sounddate"] ofType:@"m4a"];
     }
 //    else{
 //        self.myExplanLabel.text = [NSString stringWithFormat:@"About→%@",_usefulDate2[self.select_num][@"name"]];
@@ -88,7 +80,7 @@
 //        
 //    }
     
-    //intvalueでfavoriteflagを整数型にする
+//    intvalueでfavoriteflagを整数型にする
     int intFavFlag = [favoriteflag intValue];
     
     if (intFavFlag == 0) {
@@ -97,7 +89,7 @@
     }else{
         [self.favoriteBtn setTitle:@"お気に入り解除" forState:UIControlStateNormal];
     }
-    //パスから再生プレイヤーを作成する
+   //パスから再生プレイヤーを作成する
     NSURL *url = [[NSURL alloc] initFileURLWithPath:path];
     //audioを再生するプレイヤーを作成する
     self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
@@ -107,10 +99,10 @@
     }
     //自分自身をデリケートに設定
     [self.audioPlayer setDelegate:self];
-    
+
         }
 
-    
+
 
 
 
@@ -153,7 +145,7 @@
 //    
 //    }
     //int型に代入
-    int intFavFlag = [favoriteflag integerValue];
+    int intFavFlag = [favoriteflag intValue];
     
     if (intFavFlag == 0) {
         [changedUseful setObject:@1 forKey:@"favoriteflag"];
