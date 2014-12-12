@@ -11,7 +11,10 @@
 @interface FavoriteViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
     NSMutableArray *_usefulData1;
-    NSMutableArray *_usefulDate2;
+    NSMutableArray *_funnyArray;
+    NSMutableArray *_useArray;
+      NSMutableArray  *_greeArray;
+
 
 }
 @property (weak, nonatomic) IBOutlet UITableView *myFavoriteTableview;

@@ -39,6 +39,7 @@
 - (IBAction)UsefulAction:(id)sender {
     //遷移先画面のカプセル化（インスタンスカ）storybord上でDetailViewControlleの
     ViewController *vc =[self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    vc.select_num = 1;
     
     //ナビゲーションコントローラーの機能で画面遷移（別の画面に移動する事）
     [[self navigationController] pushViewController:vc animated:YES];
@@ -53,5 +54,21 @@
     
     //ナビゲーションコントローラーの機能で画面遷移（別の画面に移動する事）
     [[self navigationController] pushViewController:fvc animated:YES];
+}
+
+- (IBAction)funnyAction:(id)sender {
+    ViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    vc.select_num = 2;
+    
+    //ナビゲーションコントローラーの機能で画面遷移
+    [[self navigationController] pushViewController:vc animated:YES];
+}
+- (IBAction)myGtb:(id)sender {
+   ViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    vc.select_num = 3;
+    
+    //ナビゲーションコントローラーの機能で画面遷移
+    [[self navigationController] pushViewController:vc animated:YES];
+
 }
 @end

@@ -14,5 +14,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *myFavoriteButton;
 - (IBAction)UsefulAction:(id)sender;
 - (IBAction)myFTB:(id)sender;
+- (IBAction)funnyAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *greeLabel;
+- (IBAction)myGtb:(id)sender;
 
 @end

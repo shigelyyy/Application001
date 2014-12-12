@@ -10,10 +10,13 @@
 
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
     NSArray *_usefulData1;
-    NSArray *_usefulDate2;
-
+//    NSArray *_usefulDate2;
+    NSArray *_funnyArray;
+    NSArray *_useArray;
+    NSArray *_greeArray;
 }
 @property (weak, nonatomic) IBOutlet UITableView *usefulTableView;
+@property (nonatomic,assign) int select_num;
 
 
 
