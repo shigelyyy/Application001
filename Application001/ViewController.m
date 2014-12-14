@@ -18,7 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.title = @"Useful";
+    if (self.select_num == 1) {
+            self.title = @"General Conversation";
+    }else if (self.select_num == 2){
+            self.title = @"Slang word";
+    }else if(self.select_num == 3){
+            self.title = @"Greeting";
+    }
+    
     
     _usefulData1 = @[@"good morning.",@"who is that?",@"what's the best thing to do?",@"Where are you going?",@"Where are you now?",@"Where are you from?",@"why?",@"What’s your plan　for today",@"What time are you going back home today?",@"What are you doing?",@"How is it going?",];
     
@@ -55,15 +62,15 @@
 
     return _useArray.count;
 }
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    if (self.select_num == 1) {
-        return @"Useful";
-    }else if (self.select_num == 2){
-        return @"Slang";
-    }else{
-        return @"Greeting";
-    }
-}
+//-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+//    if (self.select_num == 1) {
+//        return @"Useful";
+//    }else if (self.select_num == 2){
+//        return @"Slang";
+//    }else{
+//        return @"Greeting";
+//    }
+//}
 //行に表示するデータの作成
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 static NSString *CellIdentifier = @"Cell";

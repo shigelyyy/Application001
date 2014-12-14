@@ -113,15 +113,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-fc-W8U">
-                                <rect key="frame" x="93" y="192" width="149" height="30"/>
-                                <state key="normal" title="General Conversation">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="UsefulAction:" destination="FAx-Cb-QPw" eventType="touchUpInside" id="WJA-Cy-8sJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLI-co-B5F">
                                 <rect key="frame" x="93" y="260" width="82" height="30"/>
                                 <state key="normal" title="Slang Word">
@@ -147,6 +138,16 @@
                                 </state>
                                 <connections>
                                     <action selector="myFTB:" destination="FAx-Cb-QPw" eventType="touchUpInside" id="Wvo-NR-rHr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-fc-W8U">
+                                <rect key="frame" x="58" y="200" width="217" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="General Conversation">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UsefulAction:" destination="FAx-Cb-QPw" eventType="touchUpInside" id="WJA-Cy-8sJ"/>
                                 </connections>
                             </button>
                         </subviews>
