@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE335B6B1A3DABE700541C46 /* gonihongo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE335B681A3DABE700541C46 /* gonihongo.png */; };
+		CE335B6C1A3DABE700541C46 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = CE335B691A3DABE700541C46 /* gray.png */; };
+		CE335B6D1A3DABE700541C46 /* images-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE335B6A1A3DABE700541C46 /* images-5.jpeg */; };
+		CE335B9A1A3DE90000541C46 /* あの人誰？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B6F1A3DE90000541C46 /* あの人誰？.m4a */; };
+		CE335B9B1A3DE90000541C46 /* それいくら？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B701A3DE90000541C46 /* それいくら？.m4a */; };
+		CE335B9C1A3DE90000541C46 /* どうしたらいいの.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B711A3DE90000541C46 /* どうしたらいいの.m4a */; };
+		CE335B9D1A3DE90000541C46 /* どこいくの？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B721A3DE90000541C46 /* どこいくの？.m4a */; };
+		CE335B9E1A3DE90000541C46 /* どこいんの？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B731A3DE90000541C46 /* どこいんの？.m4a */; };
+		CE335B9F1A3DE90000541C46 /* どこ出身ですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B741A3DE90000541C46 /* どこ出身ですか？.m4a */; };
+		CE335BA01A3DE90000541C46 /* なんで？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B751A3DE90000541C46 /* なんで？.m4a */; };
+		CE335BA11A3DE90000541C46 /* 今何時ですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B761A3DE90000541C46 /* 今何時ですか？.m4a */; };
+		CE335BA21A3DE90000541C46 /* 今日予定ある？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B771A3DE90000541C46 /* 今日予定ある？.m4a */; };
+		CE335BA31A3DE90000541C46 /* 今日何時に帰る？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B781A3DE90000541C46 /* 今日何時に帰る？.m4a */; };
+		CE335BA41A3DE90000541C46 /* 何してんの？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B791A3DE90000541C46 /* 何してんの？.m4a */; };
+		CE335BA51A3DE90000541C46 /* 調子どう？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B7A1A3DE90000541C46 /* 調子どう？.m4a */; };
+		CE335BA61A3DE90000541C46 /* あーね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B7C1A3DE90000541C46 /* あーね.m4a */; };
+		CE335BA71A3DE90000541C46 /* おめえリア充かよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B7D1A3DE90000541C46 /* おめえリア充かよ.m4a */; };
+		CE335BA81A3DE90000541C46 /* それな.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B7E1A3DE90000541C46 /* それな.m4a */; };
+		CE335BA91A3DE90000541C46 /* ただ愛とぬくもりが欲しい.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B7F1A3DE90000541C46 /* ただ愛とぬくもりが欲しい.m4a */; };
+		CE335BAA1A3DE90000541C46 /* はだざみいな.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B801A3DE90000541C46 /* はだざみいな.m4a */; };
+		CE335BAB1A3DE90000541C46 /* またかよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B811A3DE90000541C46 /* またかよ.m4a */; };
+		CE335BAC1A3DE90000541C46 /* やっちまった.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B821A3DE90000541C46 /* やっちまった.m4a */; };
+		CE335BAD1A3DE90000541C46 /* わろた.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B831A3DE90000541C46 /* わろた.m4a */; };
+		CE335BAE1A3DE90000541C46 /* マジかよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B841A3DE90000541C46 /* マジかよ.m4a */; };
+		CE335BAF1A3DE90000541C46 /* リア充ヤンキー版.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B851A3DE90000541C46 /* リア充ヤンキー版.m4a */; };
+		CE335BB01A3DE90000541C46 /* 俺に任せろ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B861A3DE90000541C46 /* 俺に任せろ.m4a */; };
+		CE335BB11A3DE90000541C46 /* 問題ないよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B871A3DE90000541C46 /* 問題ないよ.m4a */; };
+		CE335BB21A3DE90000541C46 /* 嘘だろ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B881A3DE90000541C46 /* 嘘だろ.m4a */; };
+		CE335BB31A3DE90000541C46 /* 天才かよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B891A3DE90000541C46 /* 天才かよ.m4a */; };
+		CE335BB41A3DE90000541C46 /* 心配ご無用.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B8A1A3DE90000541C46 /* 心配ご無用.m4a */; };
+		CE335BB51A3DE90000541C46 /* 最高.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B8B1A3DE90000541C46 /* 最高.m4a */; };
+		CE335BB61A3DE90000541C46 /* 私に任せて.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B8C1A3DE90000541C46 /* 私に任せて.m4a */; };
+		CE335BB71A3DE90000541C46 /* 自主休講します.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B8D1A3DE90000541C46 /* 自主休講します.m4a */; };
+		CE335BB81A3DE90000541C46 /* 詰んだー.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B8E1A3DE90000541C46 /* 詰んだー.m4a */; };
+		CE335BB91A3DE90000541C46 /* いただきます.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B901A3DE90000541C46 /* いただきます.m4a */; };
+		CE335BBA1A3DE90000541C46 /* いってきます.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B911A3DE90000541C46 /* いってきます.m4a */; };
+		CE335BBB1A3DE90000541C46 /* いってらっしゃい.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B921A3DE90000541C46 /* いってらっしゃい.m4a */; };
+		CE335BBC1A3DE90000541C46 /* うっっっっま.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B931A3DE90000541C46 /* うっっっっま.m4a */; };
+		CE335BBD1A3DE90000541C46 /* おかえり.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B941A3DE90000541C46 /* おかえり.m4a */; };
+		CE335BBE1A3DE90000541C46 /* おつかれさま.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B951A3DE90000541C46 /* おつかれさま.m4a */; };
+		CE335BBF1A3DE90000541C46 /* おはよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B961A3DE90000541C46 /* おはよ.m4a */; };
+		CE335BC01A3DE90000541C46 /* ごちそうさま.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B971A3DE90000541C46 /* ごちそうさま.m4a */; };
+		CE335BC11A3DE90000541C46 /* ただいま.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B981A3DE90000541C46 /* ただいま.m4a */; };
+		CE335BC21A3DE90000541C46 /* 行ってきます.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE335B991A3DE90000541C46 /* 行ってきます.m4a */; };
 		CE3419961A0CA1B700E7CDB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419951A0CA1B700E7CDB9 /* main.m */; };
 		CE3419991A0CA1B700E7CDB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419981A0CA1B700E7CDB9 /* AppDelegate.m */; };
 		CE34199C1A0CA1B700E7CDB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34199B1A0CA1B700E7CDB9 /* ViewController.m */; };
@@ -17,34 +61,7 @@
 		CE3419BB1A0CB5A100E7CDB9 /* ExplanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419BA1A0CB5A100E7CDB9 /* ExplanViewController.m */; };
 		CE3419BE1A0FAB1500E7CDB9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3419BD1A0FAB1500E7CDB9 /* MenuViewController.m */; };
 		CE6562E51A2C503B0093D6E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6562E41A2C503B0093D6E3 /* AVFoundation.framework */; };
-		CE7BCE061A370A300011D160 /* あの人誰？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCDFC1A370A300011D160 /* あの人誰？.m4a */; };
-		CE7BCE071A370A300011D160 /* どうしたらいいの.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCDFD1A370A300011D160 /* どうしたらいいの.m4a */; };
-		CE7BCE081A370A300011D160 /* どこいくの？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCDFE1A370A300011D160 /* どこいくの？.m4a */; };
-		CE7BCE091A370A300011D160 /* どこいんの？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCDFF1A370A300011D160 /* どこいんの？.m4a */; };
-		CE7BCE0A1A370A300011D160 /* どこ出身ですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCE001A370A300011D160 /* どこ出身ですか？.m4a */; };
-		CE7BCE0B1A370A300011D160 /* なんで？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCE011A370A300011D160 /* なんで？.m4a */; };
-		CE7BCE0C1A370A300011D160 /* 今日予定ある？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCE021A370A300011D160 /* 今日予定ある？.m4a */; };
-		CE7BCE0D1A370A300011D160 /* 今日何時に帰る？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCE031A370A300011D160 /* 今日何時に帰る？.m4a */; };
-		CE7BCE0E1A370A300011D160 /* 何してんの？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCE041A370A300011D160 /* 何してんの？.m4a */; };
-		CE7BCE0F1A370A300011D160 /* 調子どう？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCE051A370A300011D160 /* 調子どう？.m4a */; };
 		CE93B7221A1333FF0040A82A /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93B7211A1333FF0040A82A /* FavoriteViewController.m */; };
-		CEAE5BAD1A31AB23007F2369 /* おめえリア充かよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B8F1A31AB23007F2369 /* おめえリア充かよ.m4a */; };
-		CEAE5BAE1A31AB23007F2369 /* またかよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B901A31AB23007F2369 /* またかよ.m4a */; };
-		CEAE5BAF1A31AB23007F2369 /* わろた.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B911A31AB23007F2369 /* わろた.m4a */; };
-		CEAE5BB01A31AB23007F2369 /* マジかよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B921A31AB23007F2369 /* マジかよ.m4a */; };
-		CEAE5BB11A31AB23007F2369 /* リア充ヤンキー版.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B931A31AB23007F2369 /* リア充ヤンキー版.m4a */; };
-		CEAE5BB21A31AB23007F2369 /* 俺に任せろ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B941A31AB23007F2369 /* 俺に任せろ.m4a */; };
-		CEAE5BB31A31AB23007F2369 /* 問題ないよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B951A31AB23007F2369 /* 問題ないよ.m4a */; };
-		CEAE5BB41A31AB23007F2369 /* 嘘だろ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B961A31AB23007F2369 /* 嘘だろ.m4a */; };
-		CEAE5BB51A31AB23007F2369 /* 天才かよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B971A31AB23007F2369 /* 天才かよ.m4a */; };
-		CEAE5BB61A31AB23007F2369 /* 最高.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B981A31AB23007F2369 /* 最高.m4a */; };
-		CEAE5BB71A31AB23007F2369 /* 私に任せて.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B991A31AB23007F2369 /* 私に任せて.m4a */; };
-		CEAE5BB81A31AB23007F2369 /* 自主休講します.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B9A1A31AB23007F2369 /* 自主休講します.m4a */; };
-		CEAE5BB91A31AB23007F2369 /* 詰んだー.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B9B1A31AB23007F2369 /* 詰んだー.m4a */; };
-		CEAE5BBA1A31AB23007F2369 /* いただきます.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B9D1A31AB23007F2369 /* いただきます.m4a */; };
-		CEAE5BBB1A31AB23007F2369 /* うっっっっま.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B9E1A31AB23007F2369 /* うっっっっま.m4a */; };
-		CEAE5BBC1A31AB23007F2369 /* おかえり.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5B9F1A31AB23007F2369 /* おかえり.m4a */; };
-		CEAE5BBD1A31AB23007F2369 /* 行ってきます.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEAE5BA01A31AB23007F2369 /* 行ってきます.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +75,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE335B681A3DABE700541C46 /* gonihongo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gonihongo.png; sourceTree = "<group>"; };
+		CE335B691A3DABE700541C46 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		CE335B6A1A3DABE700541C46 /* images-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-5.jpeg"; sourceTree = "<group>"; };
+		CE335B6F1A3DE90000541C46 /* あの人誰？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "あの人誰？.m4a"; sourceTree = "<group>"; };
+		CE335B701A3DE90000541C46 /* それいくら？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "それいくら？.m4a"; sourceTree = "<group>"; };
+		CE335B711A3DE90000541C46 /* どうしたらいいの.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どうしたらいいの.m4a"; sourceTree = "<group>"; };
+		CE335B721A3DE90000541C46 /* どこいくの？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこいくの？.m4a"; sourceTree = "<group>"; };
+		CE335B731A3DE90000541C46 /* どこいんの？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこいんの？.m4a"; sourceTree = "<group>"; };
+		CE335B741A3DE90000541C46 /* どこ出身ですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこ出身ですか？.m4a"; sourceTree = "<group>"; };
+		CE335B751A3DE90000541C46 /* なんで？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "なんで？.m4a"; sourceTree = "<group>"; };
+		CE335B761A3DE90000541C46 /* 今何時ですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "今何時ですか？.m4a"; sourceTree = "<group>"; };
+		CE335B771A3DE90000541C46 /* 今日予定ある？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "今日予定ある？.m4a"; sourceTree = "<group>"; };
+		CE335B781A3DE90000541C46 /* 今日何時に帰る？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "今日何時に帰る？.m4a"; sourceTree = "<group>"; };
+		CE335B791A3DE90000541C46 /* 何してんの？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "何してんの？.m4a"; sourceTree = "<group>"; };
+		CE335B7A1A3DE90000541C46 /* 調子どう？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "調子どう？.m4a"; sourceTree = "<group>"; };
+		CE335B7C1A3DE90000541C46 /* あーね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "あーね.m4a"; sourceTree = "<group>"; };
+		CE335B7D1A3DE90000541C46 /* おめえリア充かよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おめえリア充かよ.m4a"; sourceTree = "<group>"; };
+		CE335B7E1A3DE90000541C46 /* それな.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "それな.m4a"; sourceTree = "<group>"; };
+		CE335B7F1A3DE90000541C46 /* ただ愛とぬくもりが欲しい.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ただ愛とぬくもりが欲しい.m4a"; sourceTree = "<group>"; };
+		CE335B801A3DE90000541C46 /* はだざみいな.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はだざみいな.m4a"; sourceTree = "<group>"; };
+		CE335B811A3DE90000541C46 /* またかよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "またかよ.m4a"; sourceTree = "<group>"; };
+		CE335B821A3DE90000541C46 /* やっちまった.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "やっちまった.m4a"; sourceTree = "<group>"; };
+		CE335B831A3DE90000541C46 /* わろた.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "わろた.m4a"; sourceTree = "<group>"; };
+		CE335B841A3DE90000541C46 /* マジかよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "マジかよ.m4a"; sourceTree = "<group>"; };
+		CE335B851A3DE90000541C46 /* リア充ヤンキー版.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "リア充ヤンキー版.m4a"; sourceTree = "<group>"; };
+		CE335B861A3DE90000541C46 /* 俺に任せろ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "俺に任せろ.m4a"; sourceTree = "<group>"; };
+		CE335B871A3DE90000541C46 /* 問題ないよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "問題ないよ.m4a"; sourceTree = "<group>"; };
+		CE335B881A3DE90000541C46 /* 嘘だろ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "嘘だろ.m4a"; sourceTree = "<group>"; };
+		CE335B891A3DE90000541C46 /* 天才かよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "天才かよ.m4a"; sourceTree = "<group>"; };
+		CE335B8A1A3DE90000541C46 /* 心配ご無用.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "心配ご無用.m4a"; sourceTree = "<group>"; };
+		CE335B8B1A3DE90000541C46 /* 最高.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最高.m4a"; sourceTree = "<group>"; };
+		CE335B8C1A3DE90000541C46 /* 私に任せて.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "私に任せて.m4a"; sourceTree = "<group>"; };
+		CE335B8D1A3DE90000541C46 /* 自主休講します.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "自主休講します.m4a"; sourceTree = "<group>"; };
+		CE335B8E1A3DE90000541C46 /* 詰んだー.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "詰んだー.m4a"; sourceTree = "<group>"; };
+		CE335B901A3DE90000541C46 /* いただきます.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いただきます.m4a"; sourceTree = "<group>"; };
+		CE335B911A3DE90000541C46 /* いってきます.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いってきます.m4a"; sourceTree = "<group>"; };
+		CE335B921A3DE90000541C46 /* いってらっしゃい.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いってらっしゃい.m4a"; sourceTree = "<group>"; };
+		CE335B931A3DE90000541C46 /* うっっっっま.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "うっっっっま.m4a"; sourceTree = "<group>"; };
+		CE335B941A3DE90000541C46 /* おかえり.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おかえり.m4a"; sourceTree = "<group>"; };
+		CE335B951A3DE90000541C46 /* おつかれさま.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おつかれさま.m4a"; sourceTree = "<group>"; };
+		CE335B961A3DE90000541C46 /* おはよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おはよ.m4a"; sourceTree = "<group>"; };
+		CE335B971A3DE90000541C46 /* ごちそうさま.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ごちそうさま.m4a"; sourceTree = "<group>"; };
+		CE335B981A3DE90000541C46 /* ただいま.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ただいま.m4a"; sourceTree = "<group>"; };
+		CE335B991A3DE90000541C46 /* 行ってきます.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "行ってきます.m4a"; sourceTree = "<group>"; };
 		CE3419901A0CA1B700E7CDB9 /* Application001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3419941A0CA1B700E7CDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3419951A0CA1B700E7CDB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,35 +137,8 @@
 		CE3419BC1A0FAB1500E7CDB9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
 		CE3419BD1A0FAB1500E7CDB9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
 		CE6562E41A2C503B0093D6E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		CE7BCDFC1A370A300011D160 /* あの人誰？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "あの人誰？.m4a"; sourceTree = "<group>"; };
-		CE7BCDFD1A370A300011D160 /* どうしたらいいの.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どうしたらいいの.m4a"; sourceTree = "<group>"; };
-		CE7BCDFE1A370A300011D160 /* どこいくの？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこいくの？.m4a"; sourceTree = "<group>"; };
-		CE7BCDFF1A370A300011D160 /* どこいんの？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこいんの？.m4a"; sourceTree = "<group>"; };
-		CE7BCE001A370A300011D160 /* どこ出身ですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこ出身ですか？.m4a"; sourceTree = "<group>"; };
-		CE7BCE011A370A300011D160 /* なんで？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "なんで？.m4a"; sourceTree = "<group>"; };
-		CE7BCE021A370A300011D160 /* 今日予定ある？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "今日予定ある？.m4a"; sourceTree = "<group>"; };
-		CE7BCE031A370A300011D160 /* 今日何時に帰る？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "今日何時に帰る？.m4a"; sourceTree = "<group>"; };
-		CE7BCE041A370A300011D160 /* 何してんの？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "何してんの？.m4a"; sourceTree = "<group>"; };
-		CE7BCE051A370A300011D160 /* 調子どう？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "調子どう？.m4a"; sourceTree = "<group>"; };
 		CE93B7201A1333FF0040A82A /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
 		CE93B7211A1333FF0040A82A /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
-		CEAE5B8F1A31AB23007F2369 /* おめえリア充かよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おめえリア充かよ.m4a"; sourceTree = "<group>"; };
-		CEAE5B901A31AB23007F2369 /* またかよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "またかよ.m4a"; sourceTree = "<group>"; };
-		CEAE5B911A31AB23007F2369 /* わろた.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "わろた.m4a"; sourceTree = "<group>"; };
-		CEAE5B921A31AB23007F2369 /* マジかよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "マジかよ.m4a"; sourceTree = "<group>"; };
-		CEAE5B931A31AB23007F2369 /* リア充ヤンキー版.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "リア充ヤンキー版.m4a"; sourceTree = "<group>"; };
-		CEAE5B941A31AB23007F2369 /* 俺に任せろ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "俺に任せろ.m4a"; sourceTree = "<group>"; };
-		CEAE5B951A31AB23007F2369 /* 問題ないよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "問題ないよ.m4a"; sourceTree = "<group>"; };
-		CEAE5B961A31AB23007F2369 /* 嘘だろ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "嘘だろ.m4a"; sourceTree = "<group>"; };
-		CEAE5B971A31AB23007F2369 /* 天才かよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "天才かよ.m4a"; sourceTree = "<group>"; };
-		CEAE5B981A31AB23007F2369 /* 最高.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最高.m4a"; sourceTree = "<group>"; };
-		CEAE5B991A31AB23007F2369 /* 私に任せて.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "私に任せて.m4a"; sourceTree = "<group>"; };
-		CEAE5B9A1A31AB23007F2369 /* 自主休講します.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "自主休講します.m4a"; sourceTree = "<group>"; };
-		CEAE5B9B1A31AB23007F2369 /* 詰んだー.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "詰んだー.m4a"; sourceTree = "<group>"; };
-		CEAE5B9D1A31AB23007F2369 /* いただきます.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いただきます.m4a"; sourceTree = "<group>"; };
-		CEAE5B9E1A31AB23007F2369 /* うっっっっま.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "うっっっっま.m4a"; sourceTree = "<group>"; };
-		CEAE5B9F1A31AB23007F2369 /* おかえり.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おかえり.m4a"; sourceTree = "<group>"; };
-		CEAE5BA01A31AB23007F2369 /* 行ってきます.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "行ってきます.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +160,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE335B671A3DABE700541C46 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE335B681A3DABE700541C46 /* gonihongo.png */,
+				CE335B691A3DABE700541C46 /* gray.png */,
+				CE335B6A1A3DABE700541C46 /* images-5.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CE335B6E1A3DE90000541C46 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CE335B6F1A3DE90000541C46 /* あの人誰？.m4a */,
+				CE335B701A3DE90000541C46 /* それいくら？.m4a */,
+				CE335B711A3DE90000541C46 /* どうしたらいいの.m4a */,
+				CE335B721A3DE90000541C46 /* どこいくの？.m4a */,
+				CE335B731A3DE90000541C46 /* どこいんの？.m4a */,
+				CE335B741A3DE90000541C46 /* どこ出身ですか？.m4a */,
+				CE335B751A3DE90000541C46 /* なんで？.m4a */,
+				CE335B761A3DE90000541C46 /* 今何時ですか？.m4a */,
+				CE335B771A3DE90000541C46 /* 今日予定ある？.m4a */,
+				CE335B781A3DE90000541C46 /* 今日何時に帰る？.m4a */,
+				CE335B791A3DE90000541C46 /* 何してんの？.m4a */,
+				CE335B7A1A3DE90000541C46 /* 調子どう？.m4a */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		CE335B7B1A3DE90000541C46 /* sounds funny */ = {
+			isa = PBXGroup;
+			children = (
+				CE335B7C1A3DE90000541C46 /* あーね.m4a */,
+				CE335B7D1A3DE90000541C46 /* おめえリア充かよ.m4a */,
+				CE335B7E1A3DE90000541C46 /* それな.m4a */,
+				CE335B7F1A3DE90000541C46 /* ただ愛とぬくもりが欲しい.m4a */,
+				CE335B801A3DE90000541C46 /* はだざみいな.m4a */,
+				CE335B811A3DE90000541C46 /* またかよ.m4a */,
+				CE335B821A3DE90000541C46 /* やっちまった.m4a */,
+				CE335B831A3DE90000541C46 /* わろた.m4a */,
+				CE335B841A3DE90000541C46 /* マジかよ.m4a */,
+				CE335B851A3DE90000541C46 /* リア充ヤンキー版.m4a */,
+				CE335B861A3DE90000541C46 /* 俺に任せろ.m4a */,
+				CE335B871A3DE90000541C46 /* 問題ないよ.m4a */,
+				CE335B881A3DE90000541C46 /* 嘘だろ.m4a */,
+				CE335B891A3DE90000541C46 /* 天才かよ.m4a */,
+				CE335B8A1A3DE90000541C46 /* 心配ご無用.m4a */,
+				CE335B8B1A3DE90000541C46 /* 最高.m4a */,
+				CE335B8C1A3DE90000541C46 /* 私に任せて.m4a */,
+				CE335B8D1A3DE90000541C46 /* 自主休講します.m4a */,
+				CE335B8E1A3DE90000541C46 /* 詰んだー.m4a */,
+			);
+			path = "sounds funny";
+			sourceTree = "<group>";
+		};
+		CE335B8F1A3DE90000541C46 /* soundsgreeting */ = {
+			isa = PBXGroup;
+			children = (
+				CE335B901A3DE90000541C46 /* いただきます.m4a */,
+				CE335B911A3DE90000541C46 /* いってきます.m4a */,
+				CE335B921A3DE90000541C46 /* いってらっしゃい.m4a */,
+				CE335B931A3DE90000541C46 /* うっっっっま.m4a */,
+				CE335B941A3DE90000541C46 /* おかえり.m4a */,
+				CE335B951A3DE90000541C46 /* おつかれさま.m4a */,
+				CE335B961A3DE90000541C46 /* おはよ.m4a */,
+				CE335B971A3DE90000541C46 /* ごちそうさま.m4a */,
+				CE335B981A3DE90000541C46 /* ただいま.m4a */,
+				CE335B991A3DE90000541C46 /* 行ってきます.m4a */,
+			);
+			path = soundsgreeting;
+			sourceTree = "<group>";
+		};
 		CE3419871A0CA1B700E7CDB9 = {
 			isa = PBXGroup;
 			children = (
@@ -169,9 +275,10 @@
 		CE3419931A0CA1B700E7CDB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE7BCDFB1A370A300011D160 /* sounds */,
-				CEAE5B8E1A31AB23007F2369 /* sounds funny */,
-				CEAE5B9C1A31AB23007F2369 /* soundsgreeting */,
+				CE335B6E1A3DE90000541C46 /* sounds */,
+				CE335B7B1A3DE90000541C46 /* sounds funny */,
+				CE335B8F1A3DE90000541C46 /* soundsgreeting */,
+				CE335B671A3DABE700541C46 /* images */,
 				CE3419941A0CA1B700E7CDB9 /* Info.plist */,
 				CE3419951A0CA1B700E7CDB9 /* main.m */,
 			);
@@ -193,54 +300,6 @@
 				CE3419AE1A0CA1B700E7CDB9 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CE7BCDFB1A370A300011D160 /* sounds */ = {
-			isa = PBXGroup;
-			children = (
-				CE7BCDFC1A370A300011D160 /* あの人誰？.m4a */,
-				CE7BCDFD1A370A300011D160 /* どうしたらいいの.m4a */,
-				CE7BCDFE1A370A300011D160 /* どこいくの？.m4a */,
-				CE7BCDFF1A370A300011D160 /* どこいんの？.m4a */,
-				CE7BCE001A370A300011D160 /* どこ出身ですか？.m4a */,
-				CE7BCE011A370A300011D160 /* なんで？.m4a */,
-				CE7BCE021A370A300011D160 /* 今日予定ある？.m4a */,
-				CE7BCE031A370A300011D160 /* 今日何時に帰る？.m4a */,
-				CE7BCE041A370A300011D160 /* 何してんの？.m4a */,
-				CE7BCE051A370A300011D160 /* 調子どう？.m4a */,
-			);
-			path = sounds;
-			sourceTree = "<group>";
-		};
-		CEAE5B8E1A31AB23007F2369 /* sounds funny */ = {
-			isa = PBXGroup;
-			children = (
-				CEAE5B8F1A31AB23007F2369 /* おめえリア充かよ.m4a */,
-				CEAE5B901A31AB23007F2369 /* またかよ.m4a */,
-				CEAE5B911A31AB23007F2369 /* わろた.m4a */,
-				CEAE5B921A31AB23007F2369 /* マジかよ.m4a */,
-				CEAE5B931A31AB23007F2369 /* リア充ヤンキー版.m4a */,
-				CEAE5B941A31AB23007F2369 /* 俺に任せろ.m4a */,
-				CEAE5B951A31AB23007F2369 /* 問題ないよ.m4a */,
-				CEAE5B961A31AB23007F2369 /* 嘘だろ.m4a */,
-				CEAE5B971A31AB23007F2369 /* 天才かよ.m4a */,
-				CEAE5B981A31AB23007F2369 /* 最高.m4a */,
-				CEAE5B991A31AB23007F2369 /* 私に任せて.m4a */,
-				CEAE5B9A1A31AB23007F2369 /* 自主休講します.m4a */,
-				CEAE5B9B1A31AB23007F2369 /* 詰んだー.m4a */,
-			);
-			path = "sounds funny";
-			sourceTree = "<group>";
-		};
-		CEAE5B9C1A31AB23007F2369 /* soundsgreeting */ = {
-			isa = PBXGroup;
-			children = (
-				CEAE5B9D1A31AB23007F2369 /* いただきます.m4a */,
-				CEAE5B9E1A31AB23007F2369 /* うっっっっま.m4a */,
-				CEAE5B9F1A31AB23007F2369 /* おかえり.m4a */,
-				CEAE5BA01A31AB23007F2369 /* 行ってきます.m4a */,
-			);
-			path = soundsgreeting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,36 +382,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAE5BB61A31AB23007F2369 /* 最高.m4a in Resources */,
+				CE335BC11A3DE90000541C46 /* ただいま.m4a in Resources */,
+				CE335BB91A3DE90000541C46 /* いただきます.m4a in Resources */,
+				CE335BA91A3DE90000541C46 /* ただ愛とぬくもりが欲しい.m4a in Resources */,
+				CE335BB31A3DE90000541C46 /* 天才かよ.m4a in Resources */,
 				CE34199F1A0CA1B700E7CDB9 /* Main.storyboard in Resources */,
-				CEAE5BB51A31AB23007F2369 /* 天才かよ.m4a in Resources */,
-				CEAE5BAE1A31AB23007F2369 /* またかよ.m4a in Resources */,
-				CEAE5BAD1A31AB23007F2369 /* おめえリア充かよ.m4a in Resources */,
-				CEAE5BB01A31AB23007F2369 /* マジかよ.m4a in Resources */,
-				CEAE5BB71A31AB23007F2369 /* 私に任せて.m4a in Resources */,
-				CEAE5BBC1A31AB23007F2369 /* おかえり.m4a in Resources */,
-				CE7BCE0B1A370A300011D160 /* なんで？.m4a in Resources */,
-				CE7BCE061A370A300011D160 /* あの人誰？.m4a in Resources */,
-				CEAE5BAF1A31AB23007F2369 /* わろた.m4a in Resources */,
+				CE335BAA1A3DE90000541C46 /* はだざみいな.m4a in Resources */,
+				CE335BBD1A3DE90000541C46 /* おかえり.m4a in Resources */,
+				CE335BAE1A3DE90000541C46 /* マジかよ.m4a in Resources */,
+				CE335BA21A3DE90000541C46 /* 今日予定ある？.m4a in Resources */,
+				CE335BAF1A3DE90000541C46 /* リア充ヤンキー版.m4a in Resources */,
+				CE335BBE1A3DE90000541C46 /* おつかれさま.m4a in Resources */,
+				CE335BAD1A3DE90000541C46 /* わろた.m4a in Resources */,
+				CE335BA61A3DE90000541C46 /* あーね.m4a in Resources */,
+				CE335B9A1A3DE90000541C46 /* あの人誰？.m4a in Resources */,
+				CE335BBB1A3DE90000541C46 /* いってらっしゃい.m4a in Resources */,
+				CE335BA51A3DE90000541C46 /* 調子どう？.m4a in Resources */,
+				CE335BC21A3DE90000541C46 /* 行ってきます.m4a in Resources */,
+				CE335BB61A3DE90000541C46 /* 私に任せて.m4a in Resources */,
+				CE335BB11A3DE90000541C46 /* 問題ないよ.m4a in Resources */,
+				CE335B6D1A3DABE700541C46 /* images-5.jpeg in Resources */,
+				CE335BAB1A3DE90000541C46 /* またかよ.m4a in Resources */,
+				CE335BA81A3DE90000541C46 /* それな.m4a in Resources */,
+				CE335B9D1A3DE90000541C46 /* どこいくの？.m4a in Resources */,
+				CE335BA41A3DE90000541C46 /* 何してんの？.m4a in Resources */,
+				CE335BB41A3DE90000541C46 /* 心配ご無用.m4a in Resources */,
+				CE335B9E1A3DE90000541C46 /* どこいんの？.m4a in Resources */,
+				CE335B9F1A3DE90000541C46 /* どこ出身ですか？.m4a in Resources */,
+				CE335BB51A3DE90000541C46 /* 最高.m4a in Resources */,
+				CE335BB21A3DE90000541C46 /* 嘘だろ.m4a in Resources */,
+				CE335BA31A3DE90000541C46 /* 今日何時に帰る？.m4a in Resources */,
+				CE335BC01A3DE90000541C46 /* ごちそうさま.m4a in Resources */,
 				CE3419A41A0CA1B700E7CDB9 /* LaunchScreen.xib in Resources */,
-				CE7BCE081A370A300011D160 /* どこいくの？.m4a in Resources */,
-				CEAE5BBA1A31AB23007F2369 /* いただきます.m4a in Resources */,
-				CEAE5BBD1A31AB23007F2369 /* 行ってきます.m4a in Resources */,
-				CE7BCE0E1A370A300011D160 /* 何してんの？.m4a in Resources */,
-				CE7BCE0D1A370A300011D160 /* 今日何時に帰る？.m4a in Resources */,
-				CEAE5BBB1A31AB23007F2369 /* うっっっっま.m4a in Resources */,
+				CE335B6C1A3DABE700541C46 /* gray.png in Resources */,
+				CE335BA01A3DE90000541C46 /* なんで？.m4a in Resources */,
+				CE335BB01A3DE90000541C46 /* 俺に任せろ.m4a in Resources */,
+				CE335BA11A3DE90000541C46 /* 今何時ですか？.m4a in Resources */,
+				CE335BB81A3DE90000541C46 /* 詰んだー.m4a in Resources */,
 				CE3419A11A0CA1B700E7CDB9 /* Images.xcassets in Resources */,
-				CE7BCE071A370A300011D160 /* どうしたらいいの.m4a in Resources */,
-				CE7BCE0A1A370A300011D160 /* どこ出身ですか？.m4a in Resources */,
-				CE7BCE0F1A370A300011D160 /* 調子どう？.m4a in Resources */,
-				CEAE5BB11A31AB23007F2369 /* リア充ヤンキー版.m4a in Resources */,
-				CEAE5BB81A31AB23007F2369 /* 自主休講します.m4a in Resources */,
-				CE7BCE091A370A300011D160 /* どこいんの？.m4a in Resources */,
-				CE7BCE0C1A370A300011D160 /* 今日予定ある？.m4a in Resources */,
-				CEAE5BB31A31AB23007F2369 /* 問題ないよ.m4a in Resources */,
-				CEAE5BB91A31AB23007F2369 /* 詰んだー.m4a in Resources */,
-				CEAE5BB41A31AB23007F2369 /* 嘘だろ.m4a in Resources */,
-				CEAE5BB21A31AB23007F2369 /* 俺に任せろ.m4a in Resources */,
+				CE335BBC1A3DE90000541C46 /* うっっっっま.m4a in Resources */,
+				CE335BBF1A3DE90000541C46 /* おはよ.m4a in Resources */,
+				CE335BB71A3DE90000541C46 /* 自主休講します.m4a in Resources */,
+				CE335B9B1A3DE90000541C46 /* それいくら？.m4a in Resources */,
+				CE335BBA1A3DE90000541C46 /* いってきます.m4a in Resources */,
+				CE335B9C1A3DE90000541C46 /* どうしたらいいの.m4a in Resources */,
+				CE335BAC1A3DE90000541C46 /* やっちまった.m4a in Resources */,
+				CE335B6B1A3DABE700541C46 /* gonihongo.png in Resources */,
+				CE335BA71A3DE90000541C46 /* おめえリア充かよ.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

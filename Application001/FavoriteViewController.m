@@ -29,7 +29,7 @@
     useful1 = [defaults objectForKey:@"usefulTable1"];
     //useful2 = [defaults objectForKey:@"usefulTable2"];
     if (useful1 == nil) {
-        useful1 = @[@{@"name":@"good morning.",@"desc":@"pronunce\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
+        useful1 = @[
                     
                     @{@"name":@"who is that?",@"desc":@"pronunce\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
                     
@@ -43,15 +43,21 @@
                     
                     @{@"name":@"why?",@"desc":@"pronunce\n nann-de ",@"favoriteflag":@"0",@"sounddate":@"なんで？"},
                     
-                    @{@"name":@"What’s your plan　for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
+                    @{@"name":@"What’s your plan for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
                     
                     @{@"name":@"What time are you going back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
                     
                     @{@"name":@"What are you doing?",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
                     
                     
-                    @{@"name":@"How is it going?",@"desc":@"pronunce\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"
-                      },];
+                    @{@"name":@"How is it going?",@"desc":@"pronunce\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"},
+                    
+                    @{@"name":@"What time is it?",@"desc":@"pronunce\n ima-nannzi?",@"favoriteflag":@"0",@"sounddate":@"今何時ですか？"},
+                    
+                    @{@"name":@"How much is it?",@"desc":@"pronunce\n sore-ikura?",@"favoriteflag":@"0",@"sounddate":@"それいくら？"},
+                    
+                    
+                    ];
     }
     _usefulData1 = useful1.mutableCopy;
     
@@ -92,19 +98,23 @@
     if (greeTmp == nil){
         greeTmp = @[@{@"name":@"Let's eat.",@"desc":@"pronunce\n itadaki-masu ",@"favoriteflag":@"0",@"sounddate":@"いただきます"},
                     
-                    @{@"name":@"How was your day?",@"desc":@"pronunce\n okaeri",@"favoriteflag":@"0",@"sounddate":@"おかえり"},
+                    @{@"name":@"good morning.",@"desc":@"pronunce\n ohayo",@"favoriteflag":@"0",@"sounddate":@"おはよ"},
+                    
+                    @{@"name":@"Welcome back.",@"desc":@"pronunce\n okaeri",@"favoriteflag":@"0",@"sounddate":@"おかえり"},
                     
                     @{@"name":@"I'm leaving.",@"desc":@"pronunce\n　itteki-masu ",@"favoriteflag":@"0",@"sounddate":@"行ってきます"},
                     
-                    @{@"name":@"Thanks for the nice meal.",@"desc":@"pronunce\n　gotisou-sama ",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"Thanks for the nice meal.",@"desc":@"pronunce\n　gotisou-sama ",@"favoriteflag":@"0",@"sounddate":@"ごちそうさま"},
                     
-                    @{@"name":@"See you! have a good day.",@"desc":@"pronunce\n itte-ra-sshai",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"See you! have a good day.",@"desc":@"pronunce\n itte-ra-sshai",@"favoriteflag":@"0",@"sounddate":@"いってらっしゃい"},
                     
-                    @{@"name":@"I'm home.",@"desc":@"pronunce\n okaeri ",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"I'm home.",@"desc":@"pronunce\n tadaima ",@"favoriteflag":@"0",@"sounddate":@"ただいま"},
                     
-                    @{@"name":@"You've gotta be tired.",@"desc":@"pronunce\n ",@"favoriteflag":@"0",@"sounddate":@""},
+                    @{@"name":@"You've gotta be tired.",@"desc":@"pronunce\n otukare-sama",@"favoriteflag":@"0",@"sounddate":@"おつかれさま"},
                     
-                    @{@"name":@"It's delicious.",@"desc":@"pronunce\n uma ",@"favoriteflag":@"0",@"sounddate":@""},
+                    
+                    
+                    
                     
                     ];
         
@@ -199,7 +209,7 @@
         useful1 = [defaults objectForKey:@"usefulTable1"];
     
         if (useful1 == nil) {
-            useful1 = @[@{@"name":@"good morning.",@"desc":@"pronunce\n ohayo",@"favoriteflag":@"0",@"sounddate":@""},
+            useful1 = @[
                         
                         @{@"name":@"who is that?",@"desc":@"pronunce\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
                         
@@ -213,15 +223,21 @@
                         
                         @{@"name":@"why?",@"desc":@"pronunce\n nann-de ",@"favoriteflag":@"0",@"sounddate":@"なんで？"},
                         
-                        @{@"name":@"What’s your plan　for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
+                        @{@"name":@"What’s your plan for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
                         
                         @{@"name":@"What time are you going back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
                         
                         @{@"name":@"What are you doing?",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
                         
                         
-                        @{@"name":@"How is it going?",@"desc":@"pronunce\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"
-                          },];
+                        @{@"name":@"How is it going?",@"desc":@"pronunce\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"},
+                        
+                        @{@"name":@"What time is it?",@"desc":@"pronunce\n ima-nannzi?",@"favoriteflag":@"0",@"sounddate":@"今何時ですか？"},
+                        
+                        @{@"name":@"How much is it?",@"desc":@"pronunce\n sore-ikura?",@"favoriteflag":@"0",@"sounddate":@"それいくら？"},
+                        
+                        
+                        ];
         }
         int index = 0;
     
@@ -269,8 +285,6 @@
                          
                          @{@"name":@"It's hopeless.",@"desc":@"pronunce\n tunda-",@"favoriteflag":@"0",@"sounddate":@"詰んだー"},
                          ];
-        
-        }
         index = 0;
         checkFlag = NO;
         for (NSDictionary *funny_each in funnyTmp) {
@@ -292,19 +306,23 @@
             if (greeTmp == nil){
                 greeTmp = @[@{@"name":@"Let's eat.",@"desc":@"pronunce\n itadaki-masu ",@"favoriteflag":@"0",@"sounddate":@"いただきます"},
                             
-                            @{@"name":@"How was your day?",@"desc":@"pronunce\n okaeri",@"favoriteflag":@"0",@"sounddate":@"おかえり"},
+                            @{@"name":@"good morning.",@"desc":@"pronunce\n ohayo",@"favoriteflag":@"0",@"sounddate":@"おはよ"},
+                            
+                            @{@"name":@"Welcome back.",@"desc":@"pronunce\n okaeri",@"favoriteflag":@"0",@"sounddate":@"おかえり"},
                             
                             @{@"name":@"I'm leaving.",@"desc":@"pronunce\n　itteki-masu ",@"favoriteflag":@"0",@"sounddate":@"行ってきます"},
                             
-                            @{@"name":@"Thanks for the nice meal.",@"desc":@"pronunce\n　gotisou-sama ",@"favoriteflag":@"0",@"sounddate":@""},
+                            @{@"name":@"Thanks for the nice meal.",@"desc":@"pronunce\n　gotisou-sama ",@"favoriteflag":@"0",@"sounddate":@"ごちそうさま"},
                             
-                            @{@"name":@"See you! have a good day.",@"desc":@"pronunce\n itte-ra-sshai",@"favoriteflag":@"0",@"sounddate":@""},
+                            @{@"name":@"See you! have a good day.",@"desc":@"pronunce\n itte-ra-sshai",@"favoriteflag":@"0",@"sounddate":@"いってらっしゃい"},
                             
-                            @{@"name":@"I'm home.",@"desc":@"pronunce\n okaeri ",@"favoriteflag":@"0",@"sounddate":@""},
+                            @{@"name":@"I'm home.",@"desc":@"pronunce\n tadaima ",@"favoriteflag":@"0",@"sounddate":@"ただいま"},
                             
-                            @{@"name":@"You've gotta be tired.",@"desc":@"pronunce\n ",@"favoriteflag":@"0",@"sounddate":@""},
+                            @{@"name":@"You've gotta be tired.",@"desc":@"pronunce\n otukare-sama",@"favoriteflag":@"0",@"sounddate":@"おつかれさま"},
                             
-                            @{@"name":@"It's delicious.",@"desc":@"pronunce\n uma ",@"favoriteflag":@"0",@"sounddate":@""},
+                            
+                            
+                            
                             
                             ];
                 
@@ -339,6 +357,7 @@
     
 
 
+}
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
