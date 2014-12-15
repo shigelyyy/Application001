@@ -45,7 +45,7 @@
                     
                     @{@"name":@"What’s your plan for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
                     
-                    @{@"name":@"What time are you going back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
+                    @{@"name":@"When are you back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
                     
                     @{@"name":@"What are you doing?",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
                     
@@ -225,7 +225,7 @@
                         
                         @{@"name":@"What’s your plan for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
                         
-                        @{@"name":@"What time are you going back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
+                        @{@"name":@"When are you back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
                         
                         @{@"name":@"What are you doing?",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
                         
@@ -285,6 +285,7 @@
                          
                          @{@"name":@"It's hopeless.",@"desc":@"pronunce\n tunda-",@"favoriteflag":@"0",@"sounddate":@"詰んだー"},
                          ];
+        }
         index = 0;
         checkFlag = NO;
         for (NSDictionary *funny_each in funnyTmp) {
@@ -297,8 +298,10 @@
             }
             index++;
 
+        }
     }
-        if(!checkFlag){
+    
+    if(!checkFlag){
             NSArray *greeTmp;
             
             greeTmp =[defaults objectForKey:@"greeTable"];
@@ -340,9 +343,6 @@
                 index++;
                 
             }
-
-        
-        }
         
     
     }
@@ -357,8 +357,9 @@
     
 
 
+
 }
-}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

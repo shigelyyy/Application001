@@ -27,7 +27,7 @@
     }
     
     
-    _usefulData1 = @[@"who is that?",@"what's the best thing to do?",@"Where are you going?",@"Where are you now?",@"Where are you from?",@"why?",@"What’s your plan for today?",@"What time are you going back home today?",@"What are you doing?",@"How is it going?",@"What time is it?",@"How much is it?",];
+    _usefulData1 = @[@"who is that?",@"what's the best thing to do?",@"Where are you going?",@"Where are you now?",@"Where are you from?",@"why?",@"What’s your plan for today?",@"When are you back home today?",@"What are you doing?",@"How is it going?",@"What time is it?",@"How much is it?",];
     
     _funnyArray = @[@"People who have a fulfilling life.",@"Oh no, not again.",@"lol",@"Are you serious?",@"Leave it to me. ",@"That doesn't matter.",@"You're kidding me!",@"You are genius.",@"Awesome.",@"Leave it to me. ",@"I will cancel my classes.",@"It's hopeless.",@"It's delicious.",@"Oh, I see!",@"I blew it.",@"I only want love and warmth.",@"I know, right?",];
     
@@ -83,9 +83,9 @@ static NSString *CellIdentifier = @"Cell";
     //Set backgroundView
     UIImageView *imageView;
     UIImage *image;
+    
     image =[UIImage imageNamed:@"gray.png"];
     imageView = [[UIImageView alloc] initWithImage:image];
-    
     cell.backgroundView = imageView;
     
     return cell;

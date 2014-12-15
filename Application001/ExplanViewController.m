@@ -90,7 +90,7 @@
                     
                     @{@"name":@"What’s your plan for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
                     
-                    @{@"name":@"What time are you going back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
+                    @{@"name":@"When are you back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
                     
                     @{@"name":@"What are you doing?",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
                     
@@ -144,7 +144,7 @@
     }else if(self.select_button_num == 3){
         _useArray = _greeArray;
     }
-    
+
     self.myExplanLabel.text = [NSString stringWithFormat:@"%@",_useArray[self.select_num][@"name"]];
     
     self.descriptionText.text = [NSString stringWithFormat:@"%@",_useArray[self.select_num][@"desc"]];
@@ -154,10 +154,10 @@
     int intFavFlag = [favoriteflag intValue];
     
     if (intFavFlag == 0){
-        [self.favoriteBtn setTitle:@"お気に入り追加" forState:UIControlStateNormal];
+        [self.favoriteBtn setTitle:@"Add to your Favorites" forState:UIControlStateNormal];
     
     }else{
-        [self.favoriteBtn setTitle:@"お気に入り解除" forState:UIControlStateNormal];
+        [self.favoriteBtn setTitle:@"cancel from Favorites" forState:UIControlStateNormal];
     }
    
     NSString *path = [[NSBundle mainBundle] pathForResource:_useArray[self.select_num][@"sounddate"]                              ofType:@"m4a"];
@@ -208,13 +208,13 @@
         [changeData setObject:@1 forKey:@"favoriteflag"];
         
         //これからお気に入りに追加されるため、ボタン名を解除にセットしておく
-        [self.favoriteBtn setTitle:@"お気に入り解除" forState:UIControlStateNormal];
+        [self.favoriteBtn setTitle:@"cancel from Favorites" forState:UIControlStateNormal];
         
     }else{
         [changeData setObject:@0 forKey:@"favoriteflag"];
         
         //これからお気に入り解除されるため、ボタン名を追加にセットしておく
-        [self.favoriteBtn setTitle:@"お気に入り追加" forState:UIControlStateNormal];
+        [self.favoriteBtn setTitle:@"Add to your Favorites" forState:UIControlStateNormal];
         
     }
     
