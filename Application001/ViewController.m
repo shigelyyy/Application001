@@ -80,13 +80,20 @@ static NSString *CellIdentifier = @"Cell";
     }
     cell.textLabel.text = _useArray[indexPath.row];
     
-    //Set backgroundView
-    UIImageView *imageView;
-    UIImage *image;
+    cell.backgroundColor = [UIColor grayColor];
+    [cell.layer setCornerRadius:15.0f];
+    [cell.layer setMasksToBounds:YES];
+    //文字の色を変更
+    cell.textLabel.textColor = [UIColor whiteColor];
     
-    image =[UIImage imageNamed:@"gray.png"];
-    imageView = [[UIImageView alloc] initWithImage:image];
-    cell.backgroundView = imageView;
+    cell.textLabel.backgroundColor = [UIColor grayColor];
+//    //Set backgroundView
+//    UIImageView *imageView;
+//    UIImage *image;
+//    
+//    image =[UIImage imageNamed:@"gray.png"];
+//    imageView = [[UIImageView alloc] initWithImage:image];
+//    cell.backgroundView = imageView;
     
     return cell;
 }

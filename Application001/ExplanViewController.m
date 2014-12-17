@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //textvieを丸くした
+    [[self.descriptionText layer] setCornerRadius:10.0];
+    [self.descriptionText setClipsToBounds:YES];
+    [[self.descriptionText layer] setBorderColor:[[UIColor lightGrayColor] CGColor]];
+    [[self.descriptionText layer] setBorderWidth:1.5];
+    
+    self.myExplanLabel.textColor = [UIColor whiteColor];
+    
+
+    
     // Do any additional setup after loading the view.
     NSError *error = nil;
     
@@ -174,8 +184,15 @@
     [self.audioPlayer setDelegate:self];
 
         }
-
-
+//if (self.audioPlayer.playing) {
+//    [self.audioPlayer stop];
+//    //[self.playButton setTitle:@"Play" forState:UIControlStateNormal];
+//}else{
+//    self.audioPlayer.enableRate = YES;
+//    [self.audioPlayer setRate:0.6];
+//    [self.audioPlayer play];
+//    //[self.playButton setTitle:@"Stop" forState:UIControlStateNormal];
+//}
 
 
 
@@ -237,17 +254,33 @@
     [defaults synchronize];
 }
 
-    
-- (IBAction)playAudio:(id)sender {
-    //ボタンが押されると再生、停止の記述を追加
-    
+- (IBAction)slowVoiceBtn:(id)sender {
     if (self.audioPlayer.playing) {
         [self.audioPlayer stop];
         //[self.playButton setTitle:@"Play" forState:UIControlStateNormal];
     }else{
+        self.audioPlayer.enableRate = YES;
+        [self.audioPlayer setRate:0.6];
         [self.audioPlayer play];
         //[self.playButton setTitle:@"Stop" forState:UIControlStateNormal];
     }
+}
+
+    
+- (IBAction)playAudio:(id)sender {
+    //ボタンが押されると再生、停止の記述を追加
+    if (self.audioPlayer.playing) {
+        [self.audioPlayer stop];
+        //[self.playButton setTitle:@"Play" forState:UIControlStateNormal];
+    }else{
+        self.audioPlayer.enableRate = YES;
+        [self.audioPlayer setRate:1];
+        [self.audioPlayer play];
+        //[self.playButton setTitle:@"Stop" forState:UIControlStateNormal];
+    }
+
+    
+    
 
 }
 @end

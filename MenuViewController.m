@@ -19,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[self.myFavoriteButton layer] setCornerRadius:10.0];
+    [self.myFavoriteButton setClipsToBounds:YES];
+    [[self.myFavoriteButton layer] setBorderColor:[[UIColor lightTextColor] CGColor]];
+    [[self.myFavoriteButton layer] setBorderWidth:1.5];
+    
+
     
 }
 

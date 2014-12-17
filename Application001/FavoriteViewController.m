@@ -188,6 +188,25 @@
     
      cell.textLabel.text = _useArray[indexPath.row][@"name"];
     
+    //cellの文字の色をかえる
+    cell.textLabel.textColor = [UIColor whiteColor];
+    
+    //cellのバックカラーの色を設定
+    cell.backgroundColor = [UIColor grayColor];
+    
+    [cell.layer setCornerRadius:15.0f];
+    [cell.layer setMasksToBounds:YES];
+    
+//    
+//    //Set backgroundView
+//    UIImageView *imageView;
+//    UIImage *image;
+//    
+//    image =[UIImage imageNamed:@"gray.png"];
+//    imageView = [[UIImageView alloc] initWithImage:image];
+//    cell.backgroundView = imageView;
+//    
+    
     return cell;
 
 

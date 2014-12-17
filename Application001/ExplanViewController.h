@@ -33,5 +33,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *favoriteBtn;
 
 - (IBAction)addFavoriteList:(id)sender;
+- (IBAction)slowVoiceBtn:(id)sender;
 
 @end
