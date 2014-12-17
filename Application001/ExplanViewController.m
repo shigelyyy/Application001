@@ -59,39 +59,39 @@
     
    if (funnyTmp == nil){
     
-        funnyTmp = @[@{@"name":@"People who have a fulfilling life.",@"desc":@"pronunce\n omee-riazyuu-kayo     ",@"favoriteflag":@"0",@"sounddate":@"おめえリア充かよ"},
+        funnyTmp = @[@{@"name":@"People who have a fulfilling life./おめえりあじゅうかよ",@"desc":@"pronunce\n omee-riazyuu-kayo",@"favoriteflag":@"0",@"sounddate":@"おめえリア充かよ"},
        
-                     @{@"name":@"Oh no, not again.",@"desc":@"pronunce\n mata-kayo",@"favoriteflag":@"0",@"sounddate":@"またかよ"},
+                     @{@"name":@"Oh no, not again./またかよ",@"desc":@"pronunce\n mata-kayo",@"favoriteflag":@"0",@"sounddate":@"またかよ"},
                      
-                     @{@"name":@"lol",@"desc":@"pronunce\n warota ",@"favoriteflag":@"0",@"sounddate":@"わろた"},
+                     @{@"name":@"lol/わろた",@"desc":@"pronunce\n warota ",@"favoriteflag":@"0",@"sounddate":@"わろた"},
                      
-                     @{@"name":@"Are you serious?",@"desc":@"pronunce\n　mazi-kayo ",@"favoriteflag":@"0",@"sounddate":@"マジかよ"},
+                     @{@"name":@"Are you serious?/まじかよ",@"desc":@"pronunce\n　mazi-kayo ",@"favoriteflag":@"0",@"sounddate":@"マジかよ"},
                      
-                     @{@"name":@"Leave it to me. ",@"desc":@"pronunce\n　oreni-makasero ",@"favoriteflag":@"0",@"sounddate":@"俺に任せろ"},
+                     @{@"name":@"Leave it to me./おれにまかせろ ",@"desc":@"pronunce\n　oreni-makasero ",@"favoriteflag":@"0",@"sounddate":@"俺に任せろ"},
                      
-                     @{@"name":@"That doesn't matter.",@"desc":@"pronunce\n mondai-naiyo ",@"favoriteflag":@"0",@"sounddate":@"問題ないよ"},
+                     @{@"name":@"That doesn't matter./もんだいないよ",@"desc":@"pronunce\n mondai-naiyo ",@"favoriteflag":@"0",@"sounddate":@"問題ないよ"},
                      
-                     @{@"name":@"You're kidding me!",@"desc":@"pronunce\n　uso-daro",@"favoriteflag":@"0",@"sounddate":@"嘘だろ"},
+                     @{@"name":@"You're kidding me!/うそだろ",@"desc":@"pronunce\n　uso-daro",@"favoriteflag":@"0",@"sounddate":@"嘘だろ"},
                      
-                     @{@"name":@"You are genius.",@"desc":@"pronunce\n tensai-kayo",@"favoriteflag":@"0",@"sounddate":@"天才かよ"},
+                     @{@"name":@"You are genius./てんさいかよ",@"desc":@"pronunce\n tensai-kayo",@"favoriteflag":@"0",@"sounddate":@"天才かよ"},
                      
-                     @{@"name":@"Awesome.",@"desc":@"pronunce\n saiko",@"favoriteflag":@"0",@"sounddate":@"最高"},
+                     @{@"name":@"Awesome./さいこうかよ",@"desc":@"pronunce\n saiko",@"favoriteflag":@"0",@"sounddate":@"最高"},
                      
-                     @{@"name":@"Leave it to me",@"desc":@"pronunce\n　watasini-maka-sete (women) ",@"favoriteflag":@"0",@"sounddate":@"私に任せて"},
+                     @{@"name":@"Leave it to me./わたしにまかせて",@"desc":@"pronunce\n　watasini-maka-sete (women) ",@"favoriteflag":@"0",@"sounddate":@"私に任せて"},
                      
-                     @{@"name":@"I will cancel my classes.",@"desc":@"pronunce\n zisyukyuukou-simasu",@"favoriteflag":@"0",@"sounddate":@"自主休講します"},
+                     @{@"name":@"I will cancel my classes./じしゅきゅうこうします",@"desc":@"pronunce\n zisyukyuukou-simasu",@"favoriteflag":@"0",@"sounddate":@"自主休講します"},
                      
-                     @{@"name":@"It's hopeless.",@"desc":@"pronunce\n tunda-",@"favoriteflag":@"0",@"sounddate":@"詰んだー"},
+                     @{@"name":@"It's hopeless./つんだー",@"desc":@"pronunce\n tunda-",@"favoriteflag":@"0",@"sounddate":@"詰んだー"},
                      
-                     @{@"name":@"It's delicious.",@"desc":@"pronunce\n uma ",@"favoriteflag":@"0",@"sounddate":@"うっっっっま"},
+                     @{@"name":@"It's delicious./うっっっっま",@"desc":@"pronunce\n uma ",@"favoriteflag":@"0",@"sounddate":@"うっっっっま"},
                      
-                     @{@"name":@"Oh, I see!",@"desc":@"pronunce\n a-ne",@"favoriteflag":@"0",@"sounddate":@"あーね"},
+                     @{@"name":@"Oh, I see!/あーね",@"desc":@"pronunce\n a-ne",@"favoriteflag":@"0",@"sounddate":@"あーね"},
                      
-                     @{@"name":@"I blew it.",@"desc":@"pronunce\n yatti-matta",@"favoriteflag":@"0",@"sounddate":@"やっちまった"},
+                     @{@"name":@"I blew it./やっちまった",@"desc":@"pronunce\n yatti-matta",@"favoriteflag":@"0",@"sounddate":@"やっちまった"},
                      
-                     @{@"name":@"I only want love and warmth.",@"desc":@"pronunce\n tada-ai-to-nukumori-ga-hosii",@"favoriteflag":@"0",@"sounddate":@"ただ愛とぬくもりが欲しい"},
+                     @{@"name":@"I only want love and warmth./ただあいとぬくもりがほしい",@"desc":@"pronunce\n tada-ai-to-nukumori-ga-hosii",@"favoriteflag":@"0",@"sounddate":@"ただ愛とぬくもりが欲しい"},
                      
-                     @{@"name":@"I know, right?",@"desc":@"pronunce\n sorena",@"favoriteflag":@"0",@"sounddate":@"それな"},
+                     @{@"name":@"I know, right?/それな",@"desc":@"pronunce\n sorena",@"favoriteflag":@"0",@"sounddate":@"それな"},
                      
                      
         ];
@@ -105,30 +105,30 @@
     if (useful1 == nil) {
             useful1 = @[
             
-                    @{@"name":@"who is that?",@"desc":@"pronunce\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
+                    @{@"name":@"who is that?/あのひとだれ？",@"desc":@"pronunce\n ano-hito-dare?",@"favoriteflag":@"0",@"sounddate":@"あの人誰？"},
                     
-                    @{@"name":@"what's the best thing to do?",@"desc":@"pronunce\n dousitara-ii-no?",@"favoriteflag":@"0",@"sounddate":@"どうしたらいいの"},
+                    @{@"name":@"what's the best thing to do?/どうしたらいいの？",@"desc":@"pronunce\n dousitara-ii-no?",@"favoriteflag":@"0",@"sounddate":@"どうしたらいいの"},
                     
-                    @{@"name":@"Where are you going?",@"desc":@"pronunce\n doko-iku-no?",@"favoriteflag":@"0",@"sounddate":@"どこいくの？"},
+                    @{@"name":@"Where are you going?/どこいくの？",@"desc":@"pronunce\n doko-iku-no?",@"favoriteflag":@"0",@"sounddate":@"どこいくの？"},
                     
-                    @{@"name":@"Where are you now?",@"desc":@"pronunce\n　doko-iru-no? ",@"favoriteflag":@"0",@"sounddate":@"どこいんの？"},
+                    @{@"name":@"Where are you now?/どこいんの？",@"desc":@"pronunce\n　doko-iru-no? ",@"favoriteflag":@"0",@"sounddate":@"どこいんの？"},
                     
-                    @{@"name":@"Where are you from? ",@"desc":@"pronunce\n doko-syussinn-desu-ka",@"favoriteflag":@"0",@"sounddate":@"どこ出身ですか？"},
+                    @{@"name":@"Where are you from?/どこしゅっしんですか？ ",@"desc":@"pronunce\n doko-syussinn-desu-ka",@"favoriteflag":@"0",@"sounddate":@"どこ出身ですか？"},
                     
-                    @{@"name":@"why?",@"desc":@"pronunce\n nann-de ",@"favoriteflag":@"0",@"sounddate":@"なんで？"},
+                    @{@"name":@"why?/なんで？",@"desc":@"pronunce\n nann-de ",@"favoriteflag":@"0",@"sounddate":@"なんで？"},
                     
-                    @{@"name":@"What’s your plan for today？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
+                    @{@"name":@"What’s your plan for today？/きょうよていある？",@"desc":@"pronunce\n kyou-yotei-aru?",@"favoriteflag":@"0",@"sounddate":@"今日予定ある？"},
                     
-                    @{@"name":@"When are you back home today?",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
+                    @{@"name":@"When are you back home today?/きょうなんじにかえる？",@"desc":@"pronunce\n kyou-nannzi-ni-kaeru?",@"favoriteflag":@"0",@"sounddate":@"今日何時に帰る？"},
                     
-                    @{@"name":@"What are you doing?",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
+                    @{@"name":@"What are you doing?/なにしてんの？",@"desc":@"pronunce\n nani-siteru-no?",@"favoriteflag":@"0",@"sounddate":@"何してんの？"},
                     
             
-                    @{@"name":@"How is it going?",@"desc":@"pronunce\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"},
+                    @{@"name":@"How is it going?/ちょうしどう？",@"desc":@"pronunce\n tyousi-dou?",@"favoriteflag":@"0",@"sounddate":@"調子どう？"},
                     
-                    @{@"name":@"What time is it?",@"desc":@"pronunce\n ima-nannzi?",@"favoriteflag":@"0",@"sounddate":@"今何時ですか？"},
+                    @{@"name":@"What time is it?/いまなんじですか？",@"desc":@"pronunce\n ima-nannzi?",@"favoriteflag":@"0",@"sounddate":@"今何時ですか？"},
                     
-                    @{@"name":@"How much is it?",@"desc":@"pronunce\n sore-ikura?",@"favoriteflag":@"0",@"sounddate":@"それいくら？"},
+                    @{@"name":@"How much is it?/それいくら？",@"desc":@"pronunce\n sore-ikura?",@"favoriteflag":@"0",@"sounddate":@"それいくら？"},
                     
                     
                     ];
@@ -141,21 +141,21 @@
     greeTmp =[defaults objectForKey:@"greeTable"];
     
     if (greeTmp == nil){
-        greeTmp = @[@{@"name":@"Let's eat.",@"desc":@"pronunce\n itadaki-masu ",@"favoriteflag":@"0",@"sounddate":@"いただきます"},
+        greeTmp = @[@{@"name":@"Let's eat./いただきます",@"desc":@"pronunce\n itadaki-masu ",@"favoriteflag":@"0",@"sounddate":@"いただきます"},
                     
-                    @{@"name":@"good morning.",@"desc":@"pronunce\n ohayo",@"favoriteflag":@"0",@"sounddate":@"おはよ"},
+                    @{@"name":@"good morning./おはよ",@"desc":@"pronunce\n ohayo",@"favoriteflag":@"0",@"sounddate":@"おはよ"},
                     
-                    @{@"name":@"Welcome back.",@"desc":@"pronunce\n okaeri",@"favoriteflag":@"0",@"sounddate":@"おかえり"},
+                    @{@"name":@"Welcome back./おかえり",@"desc":@"pronunce\n okaeri",@"favoriteflag":@"0",@"sounddate":@"おかえり"},
                     
-                    @{@"name":@"I'm leaving.",@"desc":@"pronunce\n　itteki-masu ",@"favoriteflag":@"0",@"sounddate":@"行ってきます"},
+                    @{@"name":@"I'm leaving./いってきます",@"desc":@"pronunce\n　itteki-masu ",@"favoriteflag":@"0",@"sounddate":@"行ってきます"},
                     
-                    @{@"name":@"Thanks for the nice meal.",@"desc":@"pronunce\n　gotisou-sama ",@"favoriteflag":@"0",@"sounddate":@"ごちそうさま"},
+                    @{@"name":@"Thanks for the nice meal./ごちそうさま",@"desc":@"pronunce\n　gotisou-sama ",@"favoriteflag":@"0",@"sounddate":@"ごちそうさま"},
                     
-                    @{@"name":@"See you! have a good day.",@"desc":@"pronunce\n itte-ra-sshai",@"favoriteflag":@"0",@"sounddate":@"いってらっしゃい"},
+                    @{@"name":@"See you! have a good day./いってらっしゃい",@"desc":@"pronunce\n itte-ra-sshai",@"favoriteflag":@"0",@"sounddate":@"いってらっしゃい"},
                     
-                    @{@"name":@"I'm home.",@"desc":@"pronunce\n tadaima ",@"favoriteflag":@"0",@"sounddate":@"ただいま"},
+                    @{@"name":@"I'm home./ただいま",@"desc":@"pronunce\n tadaima ",@"favoriteflag":@"0",@"sounddate":@"ただいま"},
                     
-                    @{@"name":@"You've gotta be tired.",@"desc":@"pronunce\n otukare-sama",@"favoriteflag":@"0",@"sounddate":@"おつかれさま"},
+                    @{@"name":@"You've gotta be tired./おつかれさま",@"desc":@"pronunce\n otukare-sama",@"favoriteflag":@"0",@"sounddate":@"おつかれさま"},
                     
                     
                     
