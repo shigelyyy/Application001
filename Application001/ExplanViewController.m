@@ -16,6 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //ボタンの背景の角丸を作る
+    [[self.slowButton layer] setCornerRadius:10.0];
+    [self.slowButton setClipsToBounds:YES];
+    [[self.slowButton layer] setBorderColor:[[UIColor lightTextColor] CGColor]];
+    [[self.slowButton layer] setBorderWidth:1.5];
+    
+    //こっちも
+    [[self.playButton layer] setCornerRadius:10.0];
+    [self.playButton setClipsToBounds:YES];
+    [[self.playButton layer] setBorderColor:[[UIColor lightTextColor] CGColor]];
+    [[self.playButton layer] setBorderWidth:1.5];
+    
+    [[self.favoriteBtn layer] setCornerRadius:10.0];
+    [self.favoriteBtn setClipsToBounds:YES];
+    [[self.favoriteBtn layer] setBorderColor:[[UIColor blackColor] CGColor]];
+    [[self.favoriteBtn layer] setBorderWidth:1.5];
+    
+
+    
     //textvieを丸くした
     [[self.descriptionText layer] setCornerRadius:10.0];
     [self.descriptionText setClipsToBounds:YES];
@@ -58,7 +77,7 @@
                      
                      @{@"name":@"Awesome.",@"desc":@"pronunce\n saiko",@"favoriteflag":@"0",@"sounddate":@"最高"},
                      
-                     @{@"name":@"Believe it to me",@"desc":@"pronunce\n　watasini-maka-sete (women) ",@"favoriteflag":@"0",@"sounddate":@"私に任せて"},
+                     @{@"name":@"Leave it to me",@"desc":@"pronunce\n　watasini-maka-sete (women) ",@"favoriteflag":@"0",@"sounddate":@"私に任せて"},
                      
                      @{@"name":@"I will cancel my classes.",@"desc":@"pronunce\n zisyukyuukou-simasu",@"favoriteflag":@"0",@"sounddate":@"自主休講します"},
                      

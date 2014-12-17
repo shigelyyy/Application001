@@ -31,7 +31,7 @@
     
     _funnyArray = @[@"People who have a fulfilling life.",@"Oh no, not again.",@"lol",@"Are you serious?",@"Leave it to me. ",@"That doesn't matter.",@"You're kidding me!",@"You are genius.",@"Awesome.",@"Leave it to me. ",@"I will cancel my classes.",@"It's hopeless.",@"It's delicious.",@"Oh, I see!",@"I blew it.",@"I only want love and warmth.",@"I know, right?",];
     
-    _greeArray = @[@"good morning.",@"Let's eat.",@"Welcome back.",@"I'm leaving.",@"Thanks for the nice meal.",@"See you! have a good day.",@"I'm home.",@"You've gotta be tired.",];
+    _greeArray = @[@"Let's eat.",@"good morning.",@"Welcome back.",@"I'm leaving.",@"Thanks for the nice meal.",@"See you! have a good day.",@"I'm home.",@"You've gotta be tired.",];
     
 
     
